@@ -19,7 +19,7 @@ hadoop.spark will then be available as a state.
 ``hadoop.spark``
 ---------------
 
-|Installs a prebuilt spark directory and creates a link to ``/usr/lib/spark``
+Installs a prebuilt spark directory and creates a link to ``/usr/lib/spark`` <br />
 Spark is installed on the hadoop_master only, and no further configuration is needed. `Spark in yarn mode <http://spark.apache.org/docs/latest/running-on-yarn.html>`_ uses hadoop configuration files to identify cluster members.
 For other modes, see the `spark documentation <http://spark.apache.org/docs/latest/cluster-overview.html>`_.
 
